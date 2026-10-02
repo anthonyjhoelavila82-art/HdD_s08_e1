@@ -18,3 +18,11 @@ jobs:
       - run: |
           sleep 10
           echo "ok 2"
+
+  impl3:
+    runs-on: ubuntu-latest
+    needs: impl2
+    steps:
+      - run: |
+          sleep 10
+          echo "ok 2"
