@@ -10,5 +10,5 @@ jobs:
       - name: llamado1
         uses: benc-uk/workflow-dispatch@v1
         with:
-          workflow: a2_s08_needs.yml
+          workflow: main2.yml
           token: ${{ secrets.GITHUB_TOKEN }}
