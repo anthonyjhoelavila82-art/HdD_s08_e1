@@ -1,4 +1,3 @@
-
 name: a1_s08_needs
 
 on:
@@ -12,11 +11,10 @@ jobs:
           sleep 10
           echo "ok"
 
-
   impl2:
     runs-on: ubuntu-latest
-    needs: imp1
+    needs: impl1
     steps:
       - run: |
           sleep 10
-          echo "ok  2"
+          echo "ok 2"
